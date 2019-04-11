@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ActivityDemo</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="text_nom">Nom :</string>
+    <string name="lbl_valider">Valider</string>
+    <string name="lbl_majeur">Majeur</string>
+    <string name="lbl_prenom">Prénom</string>
+    <string name="txt_prenom">Prénom :</string>
+    <string name="lbl_nom">Nom</string>
+</resources>
