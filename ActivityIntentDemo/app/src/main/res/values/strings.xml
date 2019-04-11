@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ActivityIntentDemo</string>
+    <string name="button_activity">Button Activity</string>
+</resources>
