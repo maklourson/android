@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.eni.ecole.mycontent" >
+    <application>
+        <provider
+            android:name=".provider.MonProvider"
+            android:authorities="fr.eni.ecole.contentmember.provider"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+</manifest>
