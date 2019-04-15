@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.eni.ecole.demobroadcastreceiver">
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".receivers.MyIntentService"
+            android:exported="false"></service>
+        <service
+            android:name=".services.MyServiceBidirectionnel"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".services.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".receivers.Receiver2"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".receivers.MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="fr.eni.ecole.receiver.send" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
