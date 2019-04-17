@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MP3 Player</string>
+    <string name="shuffle_title">Shuffle</string>
+    <string name="end_title">End</string>
+    <string name="permission_access_required">Stockage externe access is required to display the song.</string>
+    <string name="ok">OK</string>
+</resources>
