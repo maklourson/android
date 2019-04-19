@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/updateList"
+        android:title="@string/menu_mise_jour"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="ifRoom"
+        />
+
+        <item
+            android:id="@+id/menuVehicules"
+            android:title="@string/menu_vehicules"
+            android:icon="@drawable/land_speeder"
+
+            app:showAsAction="never"
+            />
+
+        <item
+            android:id="@+id/menuStarships"
+            android:title="@string/menu_starships"
+            android:icon="@drawable/ic_millennium_falcon"
+            app:showAsAction="never"
+            />
+
+
+        <item
+            android:id="@+id/menuSources"
+            android:title="@string/menu_sources"
+            android:icon="@drawable/ic_rebel"
+            app:showAsAction="never"
+            />
+
+</menu>

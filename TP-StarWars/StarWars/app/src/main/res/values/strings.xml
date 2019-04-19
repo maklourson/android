@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Star Wars</string>
+    <string name="name_planet">Planet : %s</string>
+    <string name="gravity_planet">Gravity : %s</string>
+    <string name="terrain_planet">Terrain(s) : %s</string>
+    <string name="planet_diameter">%s KM</string>
+    <string name="planet_gravity">%s G</string>
+    <string name="planet_orbital_periode">%s Days</string>
+    <string name="planet_rotation_periode">%s Hours</string>
+    <string name="planet_water_surface">%s %%</string>
+    <string name="people_mass">%s Kg</string>
+    <string name="people_height">%s cm</string>
+    <string name="lbl_people_birth_year">Birth Year :</string>
+    <string name="lbl_people_gender">Gender :</string>
+    <string name="lbl_people_height">Height :</string>
+    <string name="lbl_people_mass">Mass :</string>
+    <string name="lbl_people_eye">Eye :</string>
+    <string name="lbl_people_hair">Hair :</string>
+    <string name="lbl_people_skin">Skin :</string>
+    <string name="lbl_planet_peoples">People(s)</string>
+    <string name="lbl_planet_terrains">Terrain(s) :</string>
+    <string name="lbl_planet_surface_water">Surface Water :</string>
+    <string name="lbl_planet_rotation_periode">Rotation Periode :</string>
+    <string name="lbl_planet_population">Population :</string>
+    <string name="lbl_planet_orbital_period">Orbital Period :</string>
+    <string name="lbl_planet_gravity">Gravity :</string>
+    <string name="lbl_planet_diameter">Diameter :</string>
+    <string name="lbl_planet_climate">Climate :</string>
+    <string name="menu_mise_jour">Mise à jour</string>
+    <string name="menu_vehicules">Vehicules</string>
+    <string name="menu_starships">Starships</string>
+    <string name="lbl_chargement">Chargement...</string>
+    <string name="menu_sources">Sources</string>
+    <string name="title_swapi">SWAPI.CO</string>
+</resources>

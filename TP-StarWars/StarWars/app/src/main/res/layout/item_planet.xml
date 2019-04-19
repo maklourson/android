@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="@android:color/darker_gray"
+    android:layout_margin="10dp"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/namePlanet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text = "name"
+            />
+
+        <TextView
+            android:id="@+id/gravityPlanet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text = "gravity"
+            />
+
+        <TextView
+            android:id="@+id/terrainPlanet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text = "terrain"
+            />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
